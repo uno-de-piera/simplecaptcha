@@ -83,15 +83,14 @@ You can set the following options for the captcha.
 ```
 Now you can use the captcha in the view as follows:
 ```html
-	<!DOCTYPE HTML>
-            <table>
-                {{ Form::open(array('url' => 'process')) }}
-                <tr>
-                	 <td>
-                    </td>
-                    <td>
-                         <?=$captcha["img"];?>
-                    </td>
+    <table>
+        {{ Form::open(array('url' => 'process')) }}
+        <tr>
+        <td>
+        </td>
+        <td>
+            <?=$captcha["img"];?>
+        </td>
                 </tr>
 
                 </tr>
