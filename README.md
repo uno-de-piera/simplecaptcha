@@ -25,6 +25,9 @@ Find the aliases key in app/config/app.php.
         'Simplecaptcha'  => 'Unodepiera\Simplecaptcha\Facades\Simplecaptcha',
     )
 ```
+Publish assets with this command. 
+```$ php artisan asset:publish unodepiera/simplecaptcha```
+
 ## Options captcha
 You can set the following options for the captcha.
 ```php
