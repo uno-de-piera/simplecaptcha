@@ -86,33 +86,28 @@ Now you can use the captcha in the view as follows:
     <table>
         {{ Form::open(array('url' => 'process')) }}
         <tr>
-        <td>
-        </td>
-        <td>
-            <?=$captcha["img"];?>
-        </td>
-                </tr>
-
-                </tr>
-                	 <td>
-                        {{ Form::label('captcha', 'Captcha') }}
-                    </td>
-                    <td>
-                        {{ Form::text('captcha') }}
-                    </td>
-                </tr>
- 
-                <tr>
-                    <td>
- 
-                    </td>
-                    <td>
-                         {{ Form::submit('Success') }}
-                    </td>
-                </tr>              
- 
-                {{ Form::close() }}
- 
-            </table>    
+	        <td>
+	        </td>
+	        <td>
+	            <?=$captcha["img"];?>
+	        </td>
+        </tr>
+        <tr>
+            <td>
+                {{ Form::label('captcha', 'Captcha') }}
+            </td>
+            <td>
+                {{ Form::text('captcha') }}
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+                {{ Form::submit('Success') }}
+            </td>
+        </tr>              
+            {{ Form::close() }}
+  </table>    
 ```
 
