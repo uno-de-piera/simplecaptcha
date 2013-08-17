@@ -71,9 +71,13 @@ You can set the following options for the captcha.
 	    $validator = Validator::make(Input::all(), $rules);
 	    if($validator->fails())
 	    {
+
 	    	echo "fails";
+
 	    }else{
+
 	    	echo "success";
+	    	
 	    }
 	});
 ```
