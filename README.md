@@ -26,6 +26,7 @@ Find the aliases key in app/config/app.php.
     )
 ```
 Publish assets with this command. 
+
 ```$ php artisan asset:publish unodepiera/simplecaptcha```
 
 ## Options captcha
@@ -114,3 +115,9 @@ Now you can use the captcha in the view as follows:
   </table>    
 ```
 
+## Visit me
+
+* [Visit me](http://uno-de-piera.com)
+* [SimpleCaptcha on Packagist](https://packagist.org/packages/unodepiera/simplecaptcha)
+* [License](http://www.opensource.org/licenses/mit-license.php)
+* [Laravel website](http://laravel.com)
