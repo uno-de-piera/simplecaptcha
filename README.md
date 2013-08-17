@@ -50,13 +50,13 @@ You can set the following options for the captcha.
 	);
 ```
 
-Font: type font for captcha, view folder public/fonts.
-Num_lines: number lines you would for captcha.
-Num_circles: number circles you would for captcha.
-Expiration: number of seconds it will take to be removed captchas.
-Directory: folder on save captchas.
-Dir_fonts: directory on save the fonts.
-Type: alpha or alphanum.
+* Font: type font for captcha, view folder public/fonts.
+* Num_lines: number lines you would for captcha.
+* Num_circles: number circles you would for captcha.
+* Expiration: number of seconds it will take to be removed captchas.
+* Directory: folder on save captchas.
+* Dir_fonts: directory on save the fonts.
+* Type: alpha or alphanum.
 
 ## Example Usage
 ```php
