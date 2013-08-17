@@ -102,7 +102,7 @@ Now you can use the captcha in the view as follows:
 	        <td>
 	        </td>
 	        <td>
-	            <?=$captcha["img"];?>
+	            {{ $captcha["img"] }}
 	        </td>
         </tr>
         <tr>
