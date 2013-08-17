@@ -41,7 +41,7 @@ You can set the following options for the captcha.
 		"num_lines" 	=> 	"",
 		"num_circles" 	=> 	"",
 		"text"			=>	"",
-		"expiration"	=>	10,
+		"expiration"	=>	600,
 		"directory"		=>	"packages/unodepiera/simplecaptcha/captcha/",
 		"dir_fonts"		=>	"packages/unodepiera/simplecaptcha/fonts/",
 		"type"			=>	"alpha",
@@ -49,6 +49,15 @@ You can set the following options for the captcha.
 		"border_color"	=>	"0,0,0"
 	);
 ```
+
+Font: type font for captcha, view folder public/fonts.
+Num_lines: number lines you would for captcha.
+Num_circles: number circles you would for captcha.
+Expiration: number of seconds it will take to be removed captchas.
+Directory: folder on save captchas.
+Dir_fonts: directory on save the fonts.
+Type: alpha or alphanum.
+
 ## Example Usage
 ```php
 	Route::get("form", function()
@@ -61,7 +70,7 @@ You can set the following options for the captcha.
 			"length" 		=> 	8,
 			"num_circles" 	=> 	0,
 			"num_lines" 	=> 	4,
-			"expiration"	=>  120,
+			"expiration"	=>  600,
 			"bg_color"		=>	"20,20,20"
 		);
 
