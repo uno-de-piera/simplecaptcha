@@ -81,7 +81,7 @@ You can set the following options for the captcha.
 	    }
 	});
 ```
-Now you can use the captcha in the view as follows, easy:
+Now you can use the captcha in the view as follows:
 ```php
 	$captcha['img']
 ```
