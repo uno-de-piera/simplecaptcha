@@ -1,6 +1,7 @@
 {
     "name": "unodepiera/simplecaptcha",
     "description": "simplecaptcha package for laravel 4",
+    "keywords": ["L4", "Laravel 4", "Laravel", "captcha laravel 4", "security laravel 4", "captcha image", "unodepiera captcha"],
     "homepage": "http://uno-de-piera.com",
     "authors": [
         {
